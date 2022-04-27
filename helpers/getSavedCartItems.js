@@ -1,8 +1,8 @@
-const getSavedCartItems = () => {
-  const itemsCart = document.querySelector('.cart__items');
-  const getItem = localStorage.getItem('cartItems');
-  itemsCart.innerHTML = getItem;
-};
+function getSavedCartItems(item) {
+  /* const itemsCart = document.querySelector('.cart__items'); */
+  // eslint-disable-next-line no-param-reassign
+  item.innerHTML = localStorage.getItem('cartItems');
+}
 
 if (typeof module !== 'undefined') {
   module.exports = getSavedCartItems;
