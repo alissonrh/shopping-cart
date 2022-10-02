@@ -43,7 +43,8 @@ const counterTotal = () => {
 };
 
 function cartItemClickListener(event) {
-  event.target.remove();
+  console.log(event.target.parentNode);
+  event.target.parentNode.remove();
   saveCartItems(itemsCart.innerHTML);
   counterTotal();
 }
@@ -63,6 +64,7 @@ const createCartItemElement = ({ image, sku, name, salePrice }) => {
     .toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}`));
   li.appendChild(div);
   li.appendChild(createCustomElement('button', 'btn__x', 'x'));
+  
   return li;
 };
 
