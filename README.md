@@ -7,7 +7,8 @@ pesquise um produto específico, adicione o produto a um carrinho, remova produt
 
 ## Tecnologias e Ferramentas
 
-Este projeto foi desenvolvido para consolidar o bloco de Fundamentos WEB da Trybe. Foi usado JavaScrip Vanilla (JS puro!) para execução das ações do site no do cliente, HTML semântico para a estruturação e CSS na estilização. Também foi escrito testes automatizados usando o framework Jest.
+Este projeto foi desenvolvido para consolidar o bloco de Fundamentos WEB da Trybe. Foi usado JavaScrip Vanilla (JS puro!) para execução das ações do site no lado cliente e manipulação do DOM. HTML semântico para a estruturação e CSS na estilização. Também foi escrito testes automatizados usando o framework Jest.
+
 
 ## Preview 
 
