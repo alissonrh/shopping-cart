@@ -118,8 +118,7 @@ const fetchApi = async () => {
       }),
     );
   });
-  searchText2.innerText = `Você esta vendo ${arrayLength} 
-  resultados de: ${getItem().toUpperCase()}`;
+  searchText2.innerText = `Você esta vendo ${arrayLength} resultados de: ${getItem().toUpperCase()}`;
   searchText.value = '';
 };
 
