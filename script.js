@@ -63,7 +63,7 @@ const createCartItemElement = ({ image, sku, name, salePrice }) => {
   div.appendChild(createCustomElement('span', 'price', `PREÇO: ${salePrice
     .toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}`));
   li.appendChild(div);
-  li.appendChild(createCustomElement('button', 'btn__x', 'x'));
+  li.appendChild(createCustomElement('button', 'btn__x', 'Excluir'));
   
   return li;
 };

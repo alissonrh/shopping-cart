@@ -1,8 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Epilogue, sans-serif;
+  font-family: amazon, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: amazon;
+  src: url(/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember_Display/AmazonEmberDisplay_Rg.ttf)
 }
 
 body {
@@ -11,7 +16,7 @@ body {
 
 .header-1, .header {
   position: relative;
-  background-color: rgb(3, 52, 45);
+  background-color: #efd81d;
   display: flex;
   align-items: center;
   width: 100%;
@@ -19,7 +24,7 @@ body {
 }
 
 .header-2 {
-  background-color: rgb(3, 52, 45);
+  background-color: #efd81d;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -37,7 +42,7 @@ body {
 }
 
 .title {
-  color: rgb(221, 221, 221);
+  color: rgb(10, 10, 10);
   font-size: 30px;
   padding-left: 30px;
   margin-left: auto;
@@ -49,7 +54,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: rgb(10, 118, 79);
+  background-color: #00223b;
   width: 40%;
   height: 100%;
   margin-left: 30px;
@@ -66,7 +71,7 @@ body {
   right: 61.5%;
   width: 39.5%;
   height: 15px;
-  background: rgb(10, 118, 79);
+  background: #00223b;
   transform: skew(-45deg);
   z-index: 0;
 }
@@ -78,7 +83,7 @@ body {
   right: 61.5%;
   width: 39.5%;
   height: 15px;
-  background: rgb(10, 118, 79);
+  background: #00223b;
   transform: skew(45deg);
   z-index: 0;
 }
@@ -97,7 +102,7 @@ body {
 }
 
 .title strong {
-  color: white;
+  color: rgb(14, 13, 13);
 }
 
 .items {
@@ -141,7 +146,7 @@ body {
 }
 
 .item .item__add {
-  background-color: rgb(5, 52, 219);
+  background-color: #00223b;
   border: 0;
   cursor: pointer;
   margin: 0;
@@ -167,7 +172,7 @@ body {
   width: 170px;
   height: 35px;
   margin: 0 auto;
-  border: 2px solid rgb(5, 52, 219);
+  border: 2px solid #00223b;
   background-color: rgb(249, 249, 246);
 }
 
@@ -175,27 +180,31 @@ body {
   height: auto;
   width: 400px;
   text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #search-box {
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
 }
 
 #search-box input {
-  border: none
+  border: none;
+  
 }
 
 #search-box button {
-  background-color: rgb(10, 118, 79);
-  background-image: url(image/icons8-pesquisar.svg);
-  background-size: cover;
+  background-color: #00223b;
+  background-image: url(image/icons8-pesquisar-45.png);
   border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: 45px;
   height: 45px;
-  
 }
+
 
 .search_text {
   margin-left: 40px;
