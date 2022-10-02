@@ -1,5 +1,19 @@
-# 🚧 README em construção 🚧
+<h1 align="center">Projeto Shopping Cart</h1>
 
+## Descrição
+
+Este projeto é um Shopping Cart Web App que utiliza a API do Mercado Livre para exibir produtos, calcular o custo total da compra e permitir que o usuário:
+pesquise um produto específico, adicione o produto a um carrinho, remova produtos ou esvazie todo o carrinho. 
+
+## Tecnologias e Ferramentas
+
+Este projeto foi desenvolvido para consolidar o bloco de Fundamentos WEB da Trybe. Foi usado JavaScrip Vanilla (JS puro!) para execução das ações do site no do cliente, HTML semântico para a estruturação e CSS na estilização.
+
+## Preview 
+
+Para ver e interagir com o projeto [clique aqui](https://alissonrh.github.io/shopping-cart/).
+
+<center><img src="./image/mobile.gif" width="800" >
 <!-- Olá, Tryber!
 
 Esse é apenas um arquivo inicial para o README do seu projeto.
